@@ -1,0 +1,18 @@
+   29  terraform apply
+   30  vim main.tf
+   31  clear
+   32  terraform state list
+   33  terraform taint aws_instance.web
+   34  terraform plan
+   35  clear
+   36  terraform apply
+   37  clear
+   38  terraform plan
+   39  terraform state list
+   40  terraform taint aws_instance.web
+   41  terraform plan
+   42  clear
+   43  terraform untaint aws_instance.web
+   44  terraform state list
+   45  terraform untaint aws_instance.web
+   46  terraform plan
